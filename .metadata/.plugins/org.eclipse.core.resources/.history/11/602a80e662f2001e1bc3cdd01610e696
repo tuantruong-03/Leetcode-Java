@@ -1,0 +1,40 @@
+package src.leetcode;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class RomanToInteger {
+	private int romanValue(Character roman) {
+		switch (roman) {
+		case 'I':
+			return 1;
+		case 'V':
+			return 5;
+		case 'X':
+			return 10;
+		case 'L':
+			return 50;
+		case 'C':
+			return 100;
+		case 'D':
+			return 500;
+		case 'M':
+			return 1000;
+		default:
+			throw new IllegalArgumentException("Unexpected value: " + roman);
+		}
+		return null;
+	}
+
+	public int romanToInt(String s) {
+		Map<Character, Integer> romanValue = new HashMap<Character, Integer>();
+		romanValue.put('I', 1);
+		romanValue.put('V', 5);
+		romanValue.put('X', 10);
+		romanValue.put('L', 50);
+		romanValue.put('C', 100);
+		romanValue.put('D', 500);
+		romanValue.put('M', 1000);
+
+	}
+}

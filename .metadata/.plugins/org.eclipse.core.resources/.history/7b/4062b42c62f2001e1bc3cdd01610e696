@@ -1,0 +1,17 @@
+package src.leetcode;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class RomanToInteger {
+	public int romanToInt(String s) {
+		Map<Character, Integer> romanValue = new HashMap<Character, Integer>();
+		romanValue.put('I', 1);
+		romanValue.put('V', 5);
+		romanValue.put('X', 10);
+		romanValue.put('L', 50);
+		romanValue.put('C', 100);
+		romanValue.put('D', 500);
+		romanValue.put('M', 1000);
+	}
+}
