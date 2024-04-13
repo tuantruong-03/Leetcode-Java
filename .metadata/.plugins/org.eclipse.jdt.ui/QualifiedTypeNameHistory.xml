@@ -8,4 +8,5 @@
     <fullyQualifiedTypeName name="java.lang.Character"/>
     <fullyQualifiedTypeName name="java.util.Stack"/>
     <fullyQualifiedTypeName name="src.leetcode.ValidParentheses"/>
+    <fullyQualifiedTypeName name="src.leetcode.ListNode"/>
 </qualifiedTypeNameHistroy>
