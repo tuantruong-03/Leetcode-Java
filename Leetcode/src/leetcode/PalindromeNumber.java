@@ -1,5 +1,7 @@
 package src.leetcode;
 
+// Main point: sum = sum*10 + temp%10; temp /=10;
+
 public class PalindromeNumber {
 	public boolean isPalindrome(int x) {
         if (x<0) {

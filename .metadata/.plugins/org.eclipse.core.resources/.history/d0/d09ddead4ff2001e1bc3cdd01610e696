@@ -1,9 +1,0 @@
-package src.leetcode;
-
-public class Main {
-	public static void main(String[] args) {
-		System.out.println("asda");
-		TwoSum solution = new TwoSum();
-		
-	}
-}

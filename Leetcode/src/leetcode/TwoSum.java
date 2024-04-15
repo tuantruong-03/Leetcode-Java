@@ -3,6 +3,8 @@ package src.leetcode;
 import java.util.HashMap;
 import java.util.Map;
 
+//Main point: take advantage of "Map"
+
 public class TwoSum {
 	public int[] twoSum(int[] nums, int target) {
 		

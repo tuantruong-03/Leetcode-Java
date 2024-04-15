@@ -1,5 +1,7 @@
 package src.leetcode;
 
+// Main point: left, mid, right, while(left <= right)
+
 public class SearchInsertPosition {
 	 public int searchInsert(int[] nums, int target) {
 	        int left = 0;

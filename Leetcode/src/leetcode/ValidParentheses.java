@@ -2,6 +2,8 @@ package src.leetcode;
 
 import java.util.Stack;
 
+// Main point: take advantage of stack
+
 public class ValidParentheses {
 	public boolean isValid(String s) {
 		Stack<Character> stack = new Stack<Character>();
