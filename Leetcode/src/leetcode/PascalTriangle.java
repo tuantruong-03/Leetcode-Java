@@ -1,5 +1,13 @@
 package src.leetcode;
 
+//	Main point: Write Pascal triangle
+//	1 
+//	1 1 
+//	1 2 1
+//	1 3 3 1
+//	1 4 6 4 1
+//	Check index of previous row if it is out of bounds
+
 import java.util.ArrayList;
 import java.util.List;
 
