@@ -1,7 +1,8 @@
 package src.leetcode;
 
-//Main point: two pointers (left and right) to control array
-//if (profits[right] - prices[left] <=0 ) left = right
+//	Main point: two pointers (left and right) to control array
+//	if (profits[right] - prices[left] <=0 ) left = right
+// 	[7,1,5,3,6,4]
 
 public class BestTimeToBuyAndSellStock {
 	public int maxProfit(int[] prices) {
