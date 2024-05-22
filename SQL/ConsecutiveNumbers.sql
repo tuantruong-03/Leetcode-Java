@@ -23,11 +23,11 @@
 
 -- Solution 1:
 --     Explain:
---         select l1.id from Logs l1, Logs l2
---         where l1.num = l2.num && (l2.id = l1.id || l2.id = l1.id+1 || l2.id = l1.id + 2)
---         group by l1.id
---         having count(distinct l2.id) >= 3
---         order by l1.id
+        select l1.id from Logs l1, Logs l2
+        where l1.num = l2.num && (l2.id = l1.id || l2.id = l1.id+1 || l2.id = l1.id + 2)
+        group by l1.id
+        having count(distinct l2.id) >= 3
+        order by l1.id
 --         If count >= 3, there are at least 3 consecutive numbers
 
 select distinct num as ConsecutiveNums from Logs
